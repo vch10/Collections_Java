@@ -19,6 +19,10 @@ public class Student implements Comparable<Student>
 
     public String getName() { return name; }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public LocalDate getDateOfBirth() { return dateOfBirth; }
 
     public String getDetails() { return details; }
